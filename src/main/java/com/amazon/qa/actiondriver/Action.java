@@ -1,6 +1,5 @@
-/**
- * 
- */
+
+ 
 package com.amazon.qa.actiondriver;
 
 import java.util.concurrent.TimeUnit;
@@ -16,10 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.amazon.qa.base.TestBase;
 
-/**
- * @author Hitendra Verma added on 13th March2019
- *
- */
+
 public class Action extends TestBase {
 
 	public static void scrollByVisibilityOfElement(WebElement ele) {

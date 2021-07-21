@@ -58,12 +58,11 @@ public static Object[][] getData(String sheetName){
 	//row start from Excel sheel 2
 	for(int rowNum=2;rowNum<=rows;rowNum++){ //2
 		
-		//column start from excel sheet 0
+		
 		for(int colNum=0;colNum<cols;colNum++){ //0,1-2 times  (eg.colNum=1;colNum<=cols;colNum++)
 			
 			data[rowNum-2][colNum]=excel.getCellData(sheetName, colNum, rowNum);//1,2
-			//data[0][0]=shahinsayyed66@gmail.com
-			//data[0][1]=shahin123
+			
 		}
 	}
 	return data; 
